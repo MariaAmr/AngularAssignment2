@@ -10,7 +10,7 @@ import { Team } from './components/team/team';
 import { Error } from './components/error/error';
 
 export const routes: Routes = [
-  { path: "", redirectTo: "/home", pathMatch: "full" },
+  { path: "", redirectTo: "home", pathMatch: "full" },
   { path: "home", title: "Home", component: Home },
   { path: "about", title: "About", component: About },
   {
