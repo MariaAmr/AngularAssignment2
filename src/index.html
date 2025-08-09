@@ -9,5 +9,17 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+  if (window.location.pathname === '/404') {
+    window.location.href = '/not-found';
+  }
+  
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.location.pathname === '/' || 
+        window.location.pathname === '/index.html') {
+      window.location.href = '/home';
+    }
+  });
+</script>
 </body>
 </html>
