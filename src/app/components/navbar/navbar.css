@@ -45,11 +45,10 @@
   width: 30%;
 }
 
-
 @media (max-width: 991.98px) {
   .nav-link.active-link::after,
   .nav-link:not(.active-link)::after {
-    left: 12px;
+    left: 12px; 
     transform: none;
   }
   
@@ -58,11 +57,12 @@
   }
   
   .nav-link:not(.active-link):hover::after {
-    width: calc(100% - 24px); 
+    width: calc(100% - 40px); 
   }
 }
 
 
+/* Animations */
 @keyframes underline-grow-center {
   from {
     width: 0;
@@ -80,11 +80,7 @@
     opacity: 0;
   }
   to {
-    width: calc(100% - 24px); /* Account for padding */
+    width: calc(100% - 40px); /* Account for padding */
     opacity: 1;
   }
-}
-
-.nav-link:not(.active-link):hover::after {
-  width: 30%; 
 }
