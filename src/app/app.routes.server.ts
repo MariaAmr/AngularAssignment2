@@ -10,7 +10,9 @@ export const serverRoutes: ServerRoute[] = [
   { path: "team", renderMode: RenderMode.Server },
   { path: "contacts", renderMode: RenderMode.Server },
   {
+    
     path: "**",
-    renderMode: RenderMode.Client,
+    renderMode: RenderMode.Server 
+  
   },
 ];
