@@ -26,6 +26,6 @@ export const routes: Routes = [
   },
   { path: "team", title: "Team", component: Team },
   { path: "contacts", title: "Contacts", component: Contacts },
-
-  { path: "**", component: Error },
+  { path: "404", title: "Page Not Found", component: Error },
+  { path: "**", redirectTo: "/404" },
 ];
