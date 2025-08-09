@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { AnimationOptions, LottieComponent } from "ngx-lottie";
 
 @Component({
   selector: "app-error",
-  imports: [LottieComponent, RouterLink],
+  imports: [LottieComponent, RouterLink, CommonModule],
   templateUrl: "./error.html",
   styleUrl: "./error.css",
 })
