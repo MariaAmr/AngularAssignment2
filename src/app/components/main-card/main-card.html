@@ -1,0 +1,19 @@
+<div class="card text-center">
+  <div class="card-header">
+    {{ header }}
+  </div>
+  <div class="card-body">
+   <h5 class="card-title">
+          @if (isHtml) {
+            <span [innerHTML]="title"></span>
+          } @else {
+            {{ title }}
+          }
+        </h5>
+    <p class="card-text">{{ content }}</p>
+    <ng-content></ng-content>
+  </div>
+  <div class="card-footer text-body-secondary">
+    {{ footer }}
+  </div>
+</div>
