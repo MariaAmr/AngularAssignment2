@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ### The project also on Netlify  
 
-[netlify](comfy-brioche-b3ede5.netlify.app)
+[Netlify](https://comfy-brioche-b3ede5.netlify.app/)
 
 ## Development server
 
